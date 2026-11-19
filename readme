@@ -23,3 +23,5 @@ sobre.html:O arquivo  aprofunda o tema do Joinville Esporte Clube, apresentando 
 dados.html:O arquivo reúne informações quantitativas e históricas estruturadas em uma tabela de dados acessível, destacando as principais conquistas e títulos oficiais do Joinville Esporte Clube ao longo dos anos.
 
 cadastro.html:O arquivo contém o formulário interativo de adesão para a escolinha de futebol e programa de sócio-torcedor do Joinville Esporte Clube. O formulário foi desenvolvido aplicando validações nativas em HTML5, elementos semânticos de formulário e recursos de acessibilidade.
+
+contato.html:O arquivo reúne os canais formais de comunicação do Joinville Esporte Clube. A página disponibiliza os dados de contato institucional, endereço físico da secretaria do clube, horário de funcionamento, link externo para serviços de localização e um formulário direto para envio de mensagens com validação nativa.

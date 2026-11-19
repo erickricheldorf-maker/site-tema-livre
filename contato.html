@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com o Joinville Esporte Clube, consulte os horários de atendimento e envie sua mensagem.">
+  <title>Contato — Joinville Esporte Clube</title>
+</head>
+<body>
+
+  <a href="#conteudo-principal">Pular para o conteúdo</a>
+
+  <header>
+    <h1>Joinville Esporte Clube</h1>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="contato.html" aria-current="page">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <h2>Fale Conosco</h2>
+
+    <section>
+      <h3>Canais de Atendimento e Endereço</h3>
+      <address>
+        Secretaria do Joinville Esporte Clube<br>
+        Rua Inácio Bastos, 1084 - Bairro Bucarein<br>
+        Joinville - SC, CEP: 89202-405<br>
+        E-mail: <a href="mailto:atendimento@jec.com.br">atendimento@jec.com.br</a><br>
+        Telefone: <a href="tel:+554734330000">(47) 3433-0000</a>
+      </address>
+
+      <p>Localize nossa sede e o estádio no <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Serviço de Mapas Externo</a>.</p>
+    </section>
+
+    <section>
+      <h3>Horário de Atendimento</h3>
+      <dl>
+        <dt>Segunda a Sexta-feira</dt>
+        <dd>Das 08h30 às 12h00 e das 13h30 às 18h00</dd>
+
+        <dt>Sábados (Dias de Jogos)</dt>
+        <dd>Das 09h00 até o intervalo da partida</dd>
+
+        <dt>Domingos e Feriados</dt>
+        <dd>Fechado (exceto em dias de eventos oficiais)</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h3>Envie uma Mensagem</h3>
+      <form action="#" method="post">
+        <p>
+          <label for="nome-contato">Nome Completo:</label><br>
+          <input type="text" id="nome-contato" name="nome" required autocomplete="name">
+        </p>
+
+        <p>
+          <label for="email-contato">E-mail:</label><br>
+          <input type="email" id="email-contato" name="email" required autocomplete="email">
+        </p>
+
+        <p>
+          <label for="assunto-contato">Assunto:</label><br>
+          <select id="assunto-contato" name="assunto" required>
+            <option value="">-- Selecione o assunto --</option>
+            <option value="duvidas">Dúvidas Gerais</option>
+            <option value="imprensa">Assessoria de Imprensa</option>
+            <option value="socios">Atendimento ao Sócio</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="mensagem-contato">Mensagem:</label><br>
+          <textarea id="mensagem-contato" name="mensagem" rows="5" required></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Enviar Mensagem</button>
+          <button type="reset">Limpar Campos</button>
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Estudante | Turma DS25 M1 | 2026</p>
+  </footer>
+
+</body>
+</html>

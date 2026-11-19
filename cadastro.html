@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulário de inscrição para sócios e escolinha de futebol do Joinville Esporte Clube.">
+  <title>Cadastro — Joinville Esporte Clube</title>
+</head>
+<body>
+
+  <a href="#conteudo-principal">Pular para o conteúdo</a>
+
+  <header>
+    <h1>Joinville Esporte Clube</h1>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="cadastro.html" aria-current="page">Cadastro</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+    <h2>Formulário de Adesão: Escolinha e Sócio JEC</h2>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Dados Pessoais do Aluno / Torcedor</legend>
+        
+        <p>
+          <label for="nome-completo">Nome Completo:</label><br>
+          <input type="text" id="nome-completo" name="nome" required autocomplete="name">
+        </p>
+
+        <p>
+          <label for="email-usuario">E-mail de Contato:</label><br>
+          <input type="email" id="email-usuario" name="email" required autocomplete="email">
+        </p>
+
+        <p>
+          <label for="telefone-usuario">Telefone Móvel (WhatsApp):</label><br>
+          <input type="tel" id="telefone-usuario" name="telefone" autocomplete="tel">
+        </p>
+
+        <p>
+          <label for="data-nascimento">Data de Nascimento:</label><br>
+          <input type="date" id="data-nascimento" name="data_nascimento" required>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Plano e Preferências Esportivas</legend>
+
+        <p>Selecione a Categoria de Inscrição (Obrigatório):</p>
+        <p>
+          <input type="radio" id="plano-escolinha" name="modalidade_plano" value="escolinha" required>
+          <label for="plano-escolinha">Escolinha de Futebol de Base</label><br>
+
+          <input type="radio" id="plano-socio-arquibancada" name="modalidade_plano" value="socio_arquibancada">
+          <label for="plano-socio-arquibancada">Sócio Arquibancada</label><br>
+
+          <input type="radio" id="plano-socio-cadeira" name="modalidade_plano" value="socio_cadeira">
+          <label for="plano-socio-cadeira">Sócio Cadeira VIP</label>
+        </p>
+
+        <p>
+          <label for="quantidade-ingressos">Dependentes adicionais (0 a 5):</label><br>
+          <input type="number" id="quantidade-ingressos" name="dependentes" min="0" max="5" value="0">
+        </p>
+
+        <p>
+          <label for="desconto-doacao">Contribuição Mensal Voluntária Adicional (R$):</label><br>
+          <input type="number" id="desconto-doacao" name="doacao_adicional" min="5.00" max="500.00" step="0.50" value="10.00">
+        </p>
+
+        <p>
+          <label for="unidade-escolinha">Unidade da Escolinha Desejada:</label><br>
+          <select id="unidade-escolinha" name="unidade" required>
+            <option value="">-- Escolha uma unidade --</option>
+            <option value="ct-morro-meio">CT Morro do Meio</option>
+            <option value="arena">Quadra Anexa Arena</option>
+            <option value="zortea">Núcleo Esportivo Zortéa</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Benefícios e Termos de Uso</legend>
+
+        <p>Selecione os benefícios extras de interesse:</p>
+        <p>
+          <input type="checkbox" id="beneficio-loja" name="beneficios" value="desconto_loja">
+          <label for="beneficio-loja">Desconto de 15% na Loja Oficial Toca do Coelho</label><br>
+
+          <input type="checkbox" id="beneficio-rede" name="beneficios" value="rede_parceiros">
+          <label for="beneficio-rede">Descontos na Rede de Parceiros Locais</label>
+        </p>
+
+        <p>
+          <label for="observacoes">Justificativa / Observações (Máximo de 300 caracteres):</label><br>
+          <textarea id="observacoes" name="mensagem_observacao" rows="4" maxlength="300"></textarea>
+        </p>
+
+        <p>
+          <input type="checkbox" id="aceite-termos" name="aceite" value="aceito" required>
+          <label for="aceite-termos">Declaro que li e aceito os termos do regulamento interno do clube (Obrigatório).</label>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Realizar Envio do Cadastro</button>
+        <button type="reset">Limpar Formulário</button>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Estudante | Turma DS25 M1 | 2026</p>
+  </footer>
+
+</body>
+</html>

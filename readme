@@ -6,3 +6,8 @@
 # Turma:DS25 M3
 # Unidade Curricular:Programação de Aplicativos
 # Docente:Ewerton de Oliveira Cercal
+
+## Descrição do Site
+Este projeto consiste em um site puramente semântico de cinco páginas desenvolvido em HTML5 para apresentar a história, conquistas e estrutura do Joinville Esporte Clube. O site foi projetado focando nas melhores práticas de acessibilidade, hierarquia clara de títulos e conformidade total com os padrões W3C, sem a utilização de CSS ou scripts. Sua estrutura prepara o conteúdo de forma organizada e pronta para receber futuras estilizações visuais.
+
+index.html (Início): Apresenta o tema principal do JEC, sua identidade tricolor, conquistas marcantes e convida o torcedor a explorar o site.

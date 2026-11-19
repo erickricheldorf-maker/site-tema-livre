@@ -21,3 +21,5 @@ inicio.html: Apresenta o tema principal do JEC, sua identidade tricolor, conquis
 sobre.html:O arquivo  aprofunda o tema do Joinville Esporte Clube, apresentando a história detalhada da fundação do time através da união dos clubes ancestrais, a lendária sequência de títulos estaduais nos anos 80, curiosidades e um glossário de termos tricolores.
 
 dados.html:O arquivo reúne informações quantitativas e históricas estruturadas em uma tabela de dados acessível, destacando as principais conquistas e títulos oficiais do Joinville Esporte Clube ao longo dos anos.
+
+cadastro.html:O arquivo contém o formulário interativo de adesão para a escolinha de futebol e programa de sócio-torcedor do Joinville Esporte Clube. O formulário foi desenvolvido aplicando validações nativas em HTML5, elementos semânticos de formulário e recursos de acessibilidade.
